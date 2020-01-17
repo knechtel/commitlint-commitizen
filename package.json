@@ -5,6 +5,11 @@
   "repository": "https://github.com/knechtel/commitlint-commitizen.git",
   "author": "Maiquel Knechtel <maiquelknechtel@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "commit": "npx git-cz"
+  },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
