@@ -21,6 +21,9 @@
     "@commitlint/config-conventional": "^8.3.4"
   },
   "devDependencies": {
-    "husky": "^4.0.10"
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "^4.0.10",
+    "init": "0.1.2"
   }
 }
